@@ -17,4 +17,9 @@ $(document).ready(function () {
         e.preventDefault();
         $('#city').removeAttr('disabled');
     });
+    $(".bars").click(function (e) { 
+        e.preventDefault();
+        $('nav .right-menu ').slideToggle(1000);
+        
+    });
 });
