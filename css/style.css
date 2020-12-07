@@ -9,27 +9,12 @@
 
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-
-}
-
-::-webkit-scrollbar-track {
-    background-color: #131529;
-
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #ee1d7a;
-
+html {
+    font-size: 16px;
 }
 
 ul {
     list-style-type: none;
-}
-
-html {
-    font-size: 16px;
 }
 
 a {
@@ -39,6 +24,35 @@ a {
 
 img {
     width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #131529;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ee1d7a;
+}
+
+
+.header-progress {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #ebecf0;
+}
+
+.progress {
+    height: .4rem;
+    background-color: #ee1d7a;
+    width: 0%;
+    display: block;
 }
 
 .bars {
